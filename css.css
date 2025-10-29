@@ -1,0 +1,105 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+}
+.logau{
+    display:flex;
+    flex-direction: row; 
+    justify-content: start;
+    margin-left: 60px;
+    align-items: center;
+}
+.nav-bar a{
+    margin-right: 60px;
+    padding: 10px 20px;
+    border: 3px solid red;
+    border-radius: 16px;
+    background-color: orangered;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p1 p{
+    font-size:xx-small;
+}
+.p2{
+    font-size: xx-large;
+}
+/* .p3 p{
+    font-size: ;
+} */
+ .btn-2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
+.btn-2 .btnn{  
+    display: inline;
+    background-color: orangered;
+ }
+.btn-2 .btn2nnn{
+    display: inline;
+}
+.img-1 img{
+    width: 70%;
+    height: 50vh;
+    
+}
+.img-2 img{
+    width: 20%;
+    height: 200px;
+
+    
+}
+.img-1{
+    position: relative;
+}
+.img-2 img{
+    position: absolute;
+    top: 10px;
+    left: 2px;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+.cotent{
+    width: 100%;
+}
+.content-2{
+    width: 50%;
+}
+.img-bbb img{
+    display: inline-block;
+    width: 2%;
+    
+}
+.img-bbb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.coooo{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:600px) {
+
+    section{
+        display: block;
+        flex-wrap: wrap;
+    }
+    header{
+        display: none;
+    }
+    .content-2{
+        width: 100%;
+    }
+}
