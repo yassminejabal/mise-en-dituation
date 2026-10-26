@@ -29,10 +29,8 @@ header{
 .p2{
     font-size: xx-large;
 }
-/* .p3 p{
-    font-size: ;
-} */
- .btn-2{
+
+.btn-2{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -46,14 +44,11 @@ header{
 }
 .img-1 img{
     width: 70%;
-    height: 50vh;
-    
+    height: 50vh; 
 }
 .img-2 img{
     width: 20%;
-    height: 200px;
-
-    
+    height: 200px;  
 }
 .img-1{
     position: relative;
@@ -67,18 +62,18 @@ header{
 section{
     display: flex;
     flex-direction: row;
+    width: 100%;
     margin: 100px;
+    justify-content: space-between;
 }
 .cotent{
-    width: 100%;
-}
-.content-2{
     width: 50%;
 }
+.content-2{
+    width: 40%;
+}
 .img-bbb img{
-    display: inline-block;
     width: 2%;
-    
 }
 .img-bbb{
     display: flex;
@@ -90,16 +85,25 @@ section{
     display: flex;
     flex-direction: column;
 }
+.bb{
+    display: none;
+}
 @media (max-width:600px) {
 
     section{
-        display: block;
+       
         flex-wrap: wrap;
-    }
-    header{
-        display: none;
     }
     .content-2{
         width: 100%;
     }
+    .bb{
+        display: block;
+    }
+    .nav-bar{
+        display: none;
+    }
+
+
+
 }
